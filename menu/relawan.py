@@ -24,7 +24,7 @@ def menuRelawan():
 
         elif pilihmenu == "3":
 
-            menuPosko("RELAWAN")
+            menuPosko()
 
         elif pilihmenu == "4":
 

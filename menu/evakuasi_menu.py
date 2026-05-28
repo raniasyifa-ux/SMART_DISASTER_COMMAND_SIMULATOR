@@ -240,3 +240,4 @@ def menuEvakuasi():
             # PERBAIKAN:
             # menangani input menu yang salah
             print("Menu tidak tersedia!")
+

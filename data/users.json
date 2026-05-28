@@ -18,5 +18,10 @@
         "username": "Jesika",
         "password": "Jesika123",
         "role": "ADMIN"
+    },
+    {
+        "username": "islam",
+        "password": "333",
+        "role": "RELAWAN"
     }
 ]
