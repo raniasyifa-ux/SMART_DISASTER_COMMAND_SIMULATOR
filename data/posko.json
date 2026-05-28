@@ -1,0 +1,104 @@
+{
+  "tree": {
+    "nodes": [
+      {
+        "id_posko": "P001",
+        "nama": "Posko Utama Kota",
+        "lokasi": "Gedung Pemerintah Kota, Jl. Merdeka No. 1",
+        "kapasitas": 500,
+        "id_induk": null
+      },
+      {
+        "id_posko": "P002",
+        "nama": "Posko Cabang Utara",
+        "lokasi": "Lapangan Utara, Jl. Pahlawan No. 10",
+        "kapasitas": 200,
+        "id_induk": "P001"
+      },
+      {
+        "id_posko": "P004",
+        "nama": "Posko Sub-Cabang Utara A",
+        "lokasi": "Sekolah Dasar Utara, Jl. Kenanga",
+        "kapasitas": 100,
+        "id_induk": "P002"
+      },
+      {
+        "id_posko": "P005",
+        "nama": "Posko Sub-Cabang Utara B",
+        "lokasi": "Masjid Raya Utara, Jl. Melati",
+        "kapasitas": 80,
+        "id_induk": "P002"
+      },
+      {
+        "id_posko": "P003",
+        "nama": "Posko Cabang Selatan",
+        "lokasi": "GOR Selatan, Jl. Diponegoro No. 5",
+        "kapasitas": 200,
+        "id_induk": "P001"
+      },
+      {
+        "id_posko": "P006",
+        "nama": "Posko Sub-Cabang Selatan A",
+        "lokasi": "Puskesmas Selatan, Jl. Mawar",
+        "kapasitas": 100,
+        "id_induk": "P003"
+      }
+    ]
+  },
+  "detail": {
+    "P001": {
+      "id_posko": "P001",
+      "nama": "Posko Utama Kota",
+      "lokasi": "Gedung Pemerintah Kota, Jl. Merdeka No. 1",
+      "kapasitas": 500,
+      "jumlah_pengungsi": 120,
+      "status": "aktif",
+      "dibuat_pada": "2025-01-01 08:00:00"
+    },
+    "P002": {
+      "id_posko": "P002",
+      "nama": "Posko Cabang Utara",
+      "lokasi": "Lapangan Utara, Jl. Pahlawan No. 10",
+      "kapasitas": 200,
+      "jumlah_pengungsi": 85,
+      "status": "aktif",
+      "dibuat_pada": "2025-01-01 08:30:00"
+    },
+    "P003": {
+      "id_posko": "P003",
+      "nama": "Posko Cabang Selatan",
+      "lokasi": "GOR Selatan, Jl. Diponegoro No. 5",
+      "kapasitas": 200,
+      "jumlah_pengungsi": 190,
+      "status": "aktif",
+      "dibuat_pada": "2025-01-01 08:30:00"
+    },
+    "P004": {
+      "id_posko": "P004",
+      "nama": "Posko Sub-Cabang Utara A",
+      "lokasi": "Sekolah Dasar Utara, Jl. Kenanga",
+      "kapasitas": 100,
+      "jumlah_pengungsi": 40,
+      "status": "aktif",
+      "dibuat_pada": "2025-01-01 09:00:00"
+    },
+    "P005": {
+      "id_posko": "P005",
+      "nama": "Posko Sub-Cabang Utara B",
+      "lokasi": "Masjid Raya Utara, Jl. Melati",
+      "kapasitas": 80,
+      "jumlah_pengungsi": 80,
+      "status": "penuh",
+      "dibuat_pada": "2025-01-01 09:00:00"
+    },
+    "P006": {
+      "id_posko": "P006",
+      "nama": "Posko Sub-Cabang Selatan A",
+      "lokasi": "Puskesmas Selatan, Jl. Mawar",
+      "kapasitas": 100,
+      "jumlah_pengungsi": 30,
+      "status": "aktif",
+      "dibuat_pada": "2025-01-01 09:00:00"
+    }
+  }
+}

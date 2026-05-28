@@ -1,0 +1,65 @@
+{
+  "vertices": [
+    "Titik Kumpul B",
+    "Posko Utama",
+    "BKG",
+    "Lapangan Merdeka",
+    "Titik Kumpul A",
+    "Batas Kota",
+    "Rumah Sakit Pusat",
+    "Jembatan Utara",
+    "Titik Kumpul C"
+  ],
+  "edges": [
+    {
+      "asal": "Posko Utama",
+      "tujuan": "Titik Kumpul A",
+      "jarak": 2.5
+    },
+    {
+      "asal": "Posko Utama",
+      "tujuan": "Titik Kumpul B",
+      "jarak": 3.0
+    },
+    {
+      "asal": "Titik Kumpul A",
+      "tujuan": "Titik Kumpul C",
+      "jarak": 1.5
+    },
+    {
+      "asal": "Titik Kumpul A",
+      "tujuan": "Rumah Sakit Pusat",
+      "jarak": 4.0
+    },
+    {
+      "asal": "Titik Kumpul B",
+      "tujuan": "Lapangan Merdeka",
+      "jarak": 2.0
+    },
+    {
+      "asal": "Titik Kumpul B",
+      "tujuan": "Jembatan Utara",
+      "jarak": 5.0
+    },
+    {
+      "asal": "Titik Kumpul C",
+      "tujuan": "Rumah Sakit Pusat",
+      "jarak": 2.5
+    },
+    {
+      "asal": "Rumah Sakit Pusat",
+      "tujuan": "Batas Kota",
+      "jarak": 7.0
+    },
+    {
+      "asal": "Lapangan Merdeka",
+      "tujuan": "Jembatan Utara",
+      "jarak": 3.5
+    },
+    {
+      "asal": "Jembatan Utara",
+      "tujuan": "Batas Kota",
+      "jarak": 6.0
+    }
+  ]
+}

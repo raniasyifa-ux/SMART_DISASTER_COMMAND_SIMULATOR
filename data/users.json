@@ -1,0 +1,22 @@
+[
+    {
+        "username": "RANIA",
+        "password": "123",
+        "role": "ADMIN"
+    },
+    {
+        "username": "JESIKA",
+        "password": "111",
+        "role": "PETUGAS"
+    },
+    {
+        "username": "FATIH",
+        "password": "222",
+        "role": "RELAWAN"
+    },
+    {
+        "username": "Jesika",
+        "password": "Jesika123",
+        "role": "ADMIN"
+    }
+]
