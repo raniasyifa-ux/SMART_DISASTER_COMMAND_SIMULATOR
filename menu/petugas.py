@@ -16,6 +16,7 @@ def menuPetugas():
         print("3. CARI KORBAN")
         print("4. MENU EVAKUASI")
         print("5. MENU POSKO")
+        print("6. KELUAR")
 
         pilihmenu = input("PILIH MENU: ")
 
