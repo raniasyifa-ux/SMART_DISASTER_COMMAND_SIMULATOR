@@ -1,0 +1,3 @@
+[2026-05-29 11:35:24] Bantuan ambulance ditambahkan
+[2026-05-29 11:36:12] Bantuan pemadam kebakaran ditambahkan
+[2026-05-29 11:36:40] Proses ambulance

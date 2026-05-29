@@ -23,5 +23,10 @@
         "username": "islam",
         "password": "333",
         "role": "RELAWAN"
+    },
+    {
+        "username": "SYIFA",
+        "password": "1234",
+        "role": "ADMIN"
     }
 ]
