@@ -1,1 +1,30 @@
-[]
+[
+    {
+        "nama": "adit",
+        "lokasi": "A",
+        "kondisi": "stabil",
+        "id_posko": "P003",
+        "nama_posko": "Posko Cabang Selatan"
+    },
+    {
+        "nama": "sopo",
+        "lokasi": "B",
+        "kondisi": "luka bakar",
+        "id_posko": null,
+        "nama_posko": null
+    },
+    {
+        "nama": "jarwo",
+        "lokasi": "C",
+        "kondisi": "pingsan ",
+        "id_posko": null,
+        "nama_posko": null
+    },
+    {
+        "nama": "adel",
+        "lokasi": "D",
+        "kondisi": "demam",
+        "id_posko": null,
+        "nama_posko": null
+    }
+]

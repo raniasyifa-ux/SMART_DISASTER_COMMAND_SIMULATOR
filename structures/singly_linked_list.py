@@ -32,9 +32,15 @@ class SingularLinkedList:
                     return
                 
                 while now:
-                    print(f"NAMA : {now.data.nama}")
-                    print(f"LOKASI : {now.data.lokasi}")
-                    print(f"KONDISI: {now.data.kondisi}")
+                    print(f"NAMA    : {now.data.nama}")
+                    print(f"LOKASI  : {now.data.lokasi}")
+                    print(f"KONDISI : {now.data.kondisi}")
+                    id_posko   = getattr(now.data, "id_posko", None)
+                    nama_posko = getattr(now.data, "nama_posko", None)
+                    if id_posko:
+                        print(f"POSKO   : {nama_posko} [{id_posko}]")
+                    else:
+                        print("POSKO   : Belum ditempatkan")
                     print("-----" * 10)
                 
                     now = now.next
